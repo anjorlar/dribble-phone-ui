@@ -85,7 +85,8 @@ img {
     font-size: 22px;
 }
 
-.clients .project {
+.clients,
+.project {
     margin-top: 4%;
 }
 
@@ -184,7 +185,9 @@ img {
     width: 90%;
 }
 
-.higgs .isabella .guzman {
+.guzman,
+.higgs,
+.isabella {
     /* box-shadow: 5px 10px #888888; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* background-color: brown; */
@@ -237,6 +240,7 @@ img {
 }
 
 @media screen and (max-width: 750px) {
+
     .center a {
         display: none;
     }
@@ -246,11 +250,11 @@ img {
         display: block;
     }
 
-    .center .responsive {
+    .center.responsive {
         position: relative;
     }
 
-    .center .responsive .icon {
+    .center.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -265,6 +269,5 @@ img {
     .read-more {
         display: flex;
         flex-direction: column;
-        align-self: center;
     }
 }

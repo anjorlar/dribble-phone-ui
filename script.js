@@ -3,6 +3,6 @@ function hamburger() {
     if (z.className === "center") {
         z.className += "responsive";
     } else {
-        z.className === "center";
+        z.className = "center";
     }
 }
